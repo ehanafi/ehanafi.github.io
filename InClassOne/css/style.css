@@ -1,0 +1,32 @@
+body{
+  /* make all text courier with a backup of monospace, set margin and padding to 10px */
+  
+}
+h1{
+  /* make your headers #E60000 color and bold */
+  
+}
+p{
+  /* make your paragraphs 14pt, double-spaced and 10px of padding on the left and right */
+  
+}
+a{
+  /* make your links red, italics, and underlined */
+  
+}
+a:hover{
+  /* make the background color of your link black and the text white when you hover over it */
+  
+}
+ul{
+  /* make bullet points red squares */
+  
+}
+img{
+  /* make the image 300px wide and 220px high, 10px of padding, and a 3px dashed border in the color of your choice */
+ 
+}
+footer{
+  /* style the footer so it has a black background and white text */
+  
+}
