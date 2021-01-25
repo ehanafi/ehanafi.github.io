@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Colleen van Lent</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Colleen van Lent</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile mx-auto mb-4" src="img/profile.jpeg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Current Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Coursera Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">CV</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Colleen
+            <span class="text-primary">van Lent</span>
+          </h1>
+          <div class="subheading mb-5">105 S. State St · School of Information · Office #3369 · Ann Arbor, MI 48103 <br/> 
+          collemc @umich.edu
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/ColleenAtUMSI" aria-label="Twitter">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/colleen-van-lent-670a3b5/" aria-label="LinkedIn">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item"><span style = "font-size: small">FYI, I have cut back on social media usage.</span></li>
+          </ul>
+          
+          </div>
+          <p class="mb-5">I am a Lecturer IV in the School of Information at the University of Michigan. I focus on the introductory programming courses such as Data-Oriented Programming (SI 206) and the Web Design Courses (SI 339 and SI 539).</p>
+
+            <p class="mb-5">My previous jobs include Associate Professor at California State University and positions at NASA JPL, the Naval Research Lab, and the NSA. I received my BS from Kent State University Honors College in Computer Science, and an MS and PhD from the University of Pittsburgh, also in Computer Science. My thesis was on Artificial Intelligence applications on the Nursebot Project, a robotic assistant for the elderly.</p> 
+
+            <p class="mb-5">My honors include being chosen as a National Physical Sciences Consortium Fellow and a NASA Faculty Fellow. I have always emphasized the idea of technology for everybody. To that I have worked to create courses for education majors to learn robotics, as well other CS curriculum for non-majors. Her current focus is outreach with elementary and middle school students to learn problem-solving, coding, and design. I have published three recent books for children, "Web Design with HTML" and more "Web Design with HTML" and "Making a Web Page" (co-authored with my son).</p>
+          </div>
+
+          
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Current Schedule (Fall 2018)</h2>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">SI 339</h3>
+              <div class="subheading mb-3">Web Design, Development, and Accessibility</div>
+              <p>This course provides a hands-on approach to learning responsive, accessible front-end programming for Web Design. Topics covered include HTML5, CSS3, JavaScript, jQueary and the POUR design principles of accessible design. Backend web-development is not covered.<br/>
+              <a class ="inner" href = "https://www.si.umich.edu/programs/courses/339#gsc.tab=0"> Official course listing</a></p>
+            </div>
+            <div class="resume-date">
+              <span class="text-primary">Lectures:</span><br/> Tuesday 5:30-8:30pm 1255 NQ<br/>
+            </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+               <h3 class="mb-0">SI 539</h3>
+              <div class="subheading mb-3">Web Design, Development, and Accessibility</div>
+              <p>This course is aimed at students with minimal technical background, but who are currently in another programming course. The purpose of this course is to provide students with all necessary skills for building and deploying web sites, as well as utilizing existing software tools. In the first half of this course we will look deeply into the ideas and concepts behind web design; particularly recent changes to HTML and CSS standards, as well as the importance of responsive web design. In the second half of the course we focus on JavaScript.  Backend web-development is not covered.<br/>
+              <a  class ="inner" href = "https://www.si.umich.edu/programs/courses/539#gsc.tab=0"> Official course listing</a></p>
+            </div>
+            <div class="resume-date">
+              <span class="text-primary">Lectures:</span><br/> Monday 2:30-4:30pm NQ 2255 <br/>
+            </div>
+          </div>
+  
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Contact Hours</h3>
+              <p> <span class="text-primary">Office Hours:</span><br/> Wednesday: 1:35am - 3:30pm 1274 NQ<br/>
+               I try to keep my office hours as consistent as possible, but there are times I need to reschedule.  Please check my 
+               <a class ="inner" href = "http://www.google.com/calendar/embed?src=collemc%40umich.edu&ctz=America/New_York"> Google Calendar </a> for the most up-to-date times and locations.<br/><br/>
+              <span class="text-primary">Appointments:</span><br/> Monday: 11:30am - 1:10pm 3369 NQ<br/>  I also hold one-on-one office hours by appointment on most Mondays of the semester.  You must make the appointment at least 24 hours in advance and let me know what we will be discussing.  Appointsments are made online with my <a class ="inner" href = "https://calendar.google.com/calendar/selfsched?sstoken=UU8wRGFQb1NtWUJEfGRlZmF1bHR8MzYxZWIwYjliNWQ2MDAyYzFjN2RiMTQ3NTkyNjlkNTM">Google Calendar</a>.</p>
+            </div>
+            <div class="resume-date">
+              <span class="text-primary">Stop By </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Coursera</h2>
+                    <p class="mb-5">In 2015 I launched a 5 course specialization for Coursera - "Web Design for Everybody" (Basics of Web Development and Coding) Specialization.  This Specialization covers how to write syntactically correct HTML5 and CSS3, and how to create interactive web experiences with JavaScript. Learning about this range of technologies will get you started on the path of learning how  to develop high quality web sites that, work seamlessly on mobile, tablet, and large screen browsers accessible. I introduce the idea of accessible design for a wide audience, including those with visual, audial, physical, and cognitive impairments.</p>
+          <p class="mb-5">My motivation for creating this course content was to spread the mission of free education to everyone.  Unfortunately, many of the platform changes has put the material behind paywells.  I highly encourage students to take the courses individually (rather than as a specialization) to access them for free.  Even then, some of the assignments may be hidden.  I am hoping to launch a new more open version in Fall 2018.</p>
+
+          <p class="mb-5">Because there are so many students it is absolutely impossible for me to answer email or become Facebook friends with students.  Coursera has set up the platform that students can get help through the forums.  I realize that you may not get help the first or second time you post for assistance, but it will come!!  Please make sure to help your fellow students at the same time as well.</p>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">CV</h2>
+          <p class="mb-0">Those of us in academia have ridiculously long CVs.  I have included an abridged version here.</p>
+          <iframe src="vanLentCV2017Abridged.pdf"></iframe>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+
+<!-- <div style ="float:right">
+     <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jquery"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap"></i>
+            </li>
+          </ul>
+          </div> -->
+
+  </body>
+
+</html>
