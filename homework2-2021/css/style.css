@@ -73,9 +73,14 @@ b.     Text is aligned on the right side
 c.     Header 2 and paragraph text is black
 d.     Header 2 drop shadow is #c7e2c7 with the same parameters as above */
 #yellow {
-    color: #000000;
     background-color: #ffff00;
     text-align: right;
+    color: #000000;
+}
+
+#yellow.h2 {
+    color: #000000;
+    text-shadow: #c7e2c7
 }
 
 /* Green div has the following styles
