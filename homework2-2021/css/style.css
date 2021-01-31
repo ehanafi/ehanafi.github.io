@@ -73,9 +73,9 @@ b.     Text is aligned on the right side
 c.     Header 2 and paragraph text is black
 d.     Header 2 drop shadow is #c7e2c7 with the same parameters as above */
 #yellow {
+    color: #000000;
     background-color: #ffff00;
     text-align: right;
-    color: #000000;
 }
 
 /* Green div has the following styles
@@ -88,9 +88,7 @@ b.     Text is aligned on the left side */
 
 /* Paragraphs within the footer have text that is centered with
  10px padding on the bottom and right only. (No padding on the left or top.) */
- footer p br {
-    padding-top: 0px;
-    padding-left: 0px; 
+ footer{
     text-align: center;
     padding-bottom: 10px;
     padding-right: 10px;
