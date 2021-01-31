@@ -78,10 +78,6 @@ d.     Header 2 drop shadow is #c7e2c7 with the same parameters as above */
     color: #000000;
 }
 
-#yellow h2 {
-    text-shadow: #c7e2c7;
-}
-
 /* Green div has the following styles
 a.     Background color is hexadecimal value for green  (You can use #008000)
 b.     Text is aligned on the left side */
@@ -94,10 +90,7 @@ b.     Text is aligned on the left side */
  10px padding on the bottom and right only. (No padding on the left or top.) */
  footer p br {
     padding-top: 0px;
-    padding-left: 0px;
- }
-
- footer {
+    padding-left: 0px; 
     text-align: center;
     padding-bottom: 10px;
     padding-right: 10px;
