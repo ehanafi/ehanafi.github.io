@@ -95,8 +95,6 @@ b.     Text is aligned on the left side */
  10px padding on the bottom and right only. (No padding on the left or top.) */
  footer {
     text-align: center;
-    margin-top: -15px;
-    margin-left: -15px;
     padding-bottom: 10px;
     padding-right: 10px;
  }
