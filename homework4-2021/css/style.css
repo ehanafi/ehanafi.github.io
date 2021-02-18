@@ -27,81 +27,115 @@ tr{
 body{
   color: #000000;
   font-size: 16px;
-  font-family: 'Andika', sans-serif;
   margin: 1.2em;
-  background-size: cover ;
-
+  background-size: cover;
+  
+  /*Req 1*/
+  font-family: 'Andika', sans-serif;
   /*Fallback Color*/
   background-color: #DDDDDD;
 
   background-image: url('../images/pigeon-background.JPEG');
   background-repeat: no-repeat;
   background-position: center;
-
-  /*Req 1*/
 }
 
 h1{
   color: #c12258;
   font-size: 2em;
+  /*Req 2*/
   text-align: center;
   line-height: 2;
-
-  /*Req 2*/
 }
 
 p{
+  /*Req 3*/
   padding-top: 15px;
   padding-left: 0px;
   padding-right: 0px;
   padding-bottom: 0px;
-  
-  /*Req 3*/
 }
 
 a{
+  /*Req 4*/
   color: #B21F50;
   font-size: 16px;
   text-decoration-style: wavy;
-
-
-  
-  /*Req 4*/
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
-
+*:focus{
+  border: 3px dashed #417243
+}
 
 /*Req 6a*/
 td{
-  
+  text-align: center;
+  border-top: 2px solid black;
+  padding: 10px
 }
 
 /*Req 6b*/
 .colhead{
   color: #FFFFFF;
-
+  text-transform: uppercase;
+  column-width: 125px;
+  top: 50%;
+  left: 50%;
+  background-color: #7e0820;
+  padding: 10px;
 }
+
 /*Req 6c*/
 .rowhead{
-
+  border-top: 2px solid black;
+  border-right: 2px solid black;
 }
 
 /*Req 6d*/
-/*Req 6e*/
-/*Req 6f*/
+tr:nth-child(odd){
+  background-color: transparent;  
+}
 
+/*Req 6e*/
+tr:nth-child(even){
+  background-color: #D1D1D1;
+}
+
+/*Req 6f*/
+tr:hover {
+  background-color: rgba(126, 8, 32, 0.25) ;
+}
 
 /*Req 7*/
 table{
-    border: 2px solid #000000;
+  border: 2px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
-thead tr:first-child th:first-child{}
-
 /*Add selectors and rules here*/
+/* top-left border-radius */
+thead tr:first-child th:first-child{
+  border-top-left-radius: 10px;
+}
 
+/* top-right border-radius */
+table tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+/* bottom-left border-radius */
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+/* bottom-right border-radius */
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
 
 /*Req 8*/
 footer{
@@ -109,5 +143,8 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  height: 75px;
+  position: sticky;
+  bottom: 0;
 }
 
