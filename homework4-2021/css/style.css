@@ -80,9 +80,8 @@ td{
 .colhead{
   color: #FFFFFF;
   text-transform: uppercase;
-  column-width: 125px;
-  top: 50%;
-  left: 50%;
+  min-width: 125px;
+  vertical-align: middle;
   background-color: #7e0820;
   padding: 10px;
 }
@@ -143,8 +142,8 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
-  height: 75px;
+
+  min-height: 75px;
   position: sticky;
   bottom: 0;
 }
-
