@@ -27,8 +27,15 @@ tr{
 body{
   color: #000000;
   font-size: 16px;
+  font-family: 'Andika', sans-serif;
   margin: 1.2em;
   background-size: cover ;
+
+  /*Fallback Color*/
+  background-color: #DDDDDD;
+
+  background-image: url('../images/pigeon-background.JPEG');
+  background-repeat: no-repeat;
   background-position: center;
 
   /*Req 1*/
@@ -37,15 +44,28 @@ body{
 h1{
   color: #c12258;
   font-size: 2em;
+  text-align: center;
+  line-height: 2;
 
   /*Req 2*/
 }
 
 p{
+  padding-top: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  
   /*Req 3*/
 }
 
 a{
+  color: #B21F50;
+  font-size: 16px;
+  text-decoration-style: wavy;
+
+
+  
   /*Req 4*/
 }
 
