@@ -82,7 +82,6 @@ a:hover{
   top: -50px;
 }
 
-
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
 a:focus{
@@ -90,24 +89,22 @@ a:focus{
   top: 10px;
 }
 
-
 /*Req 4*/
 /*Write selector/rule property to style all elements when in focus*/
-.skip a:focus{
-  border-top-style: 2px dashed;
-  border-bottom-style: 2px dashed;
+a:focus{
+  border-top: 2px dashed;
+  border-bottom: 2px dashed;
 }
-
 
 /*Req 5*/
 .container{
   /*Your Code Here*/
   display: grid;
+
   grid-template-columns: 1fr 3fr 3fr 1fr;
-  grid-auto-rows: auto;
+  grid-template-rows: auto;
   grid-row-gap: 20px;
 }
-
 
 header{
   background-attachment: fixed; /* Parallax effect */     
