@@ -55,11 +55,18 @@ header p{
 nav a{
   color: black;
   font-weight: bold;
-
+  text-decoration: none;
 }
+
+
 /*Req 2*/
-/*Write selector/rule property to add an underline when
+/*Write selector/rule property 
+to add an underline when
 links in the navigation are in the hover or focus state.*/
+a:hover{
+  text-decoration: underline;
+}
+
 
 /*Req 3a*/
 .skip a{
@@ -70,18 +77,37 @@ links in the navigation are in the hover or focus state.*/
   transition: top 1s ease-out;
   z-index: 1;
 
-  /*Your code here*/
+/*Your code here*/
+  position: absolute;
+  top: 50px;
 }
+
+
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
+.offline:focus{
+  position: absolute;
+  bottom: 10px;
+}
+
 
 /*Req 4*/
 /*Write selector/rule property to style all elements when in focus*/
+:focus{
+  border-top-style: 2px dashed;
+  border-bottom-style: 2px dashed;
+}
+
 
 /*Req 5*/
 .container{
   /*Your Code Here*/
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 1fr;
+  grid-auto-rows: auto auto auto auto;
+  row-gap: 20px;
 }
+
 
 header{
   background-attachment: fixed; /* Parallax effect */     
@@ -93,46 +119,50 @@ header{
     
   /*Req 6a*/
   /*Set margin */
+  margin-bottom: 25px;
     
   /*Req 6b*/
   /*Set background-image to header.jpg */
- 
-
+  background-image: url('../images/header.jpg');
 }
+
+
 /*Req 7a*/
 .about, .method, .client, .contacts{
   /*Your Code Here*/
-
+  grid-column: 2 / span 2;
 }
 
 /*Req 8a, 8b, and 8c*/
 .about-image, .method-image, .client-image, .contact-image{
   /*Your Code Here*/
-
+  grid-column: 1/-1;
+  max-height: 650px;
+  overflow: hidden;
 }
 
 /*Req 7b & 8d*/
 .about, .about-image{
-   /*Your Code Here*/
-
+  /*Your Code Here*/ 
+  grid-column: 1  / span 1;
 }
 
 /*Req 7b & 8d*/
 .method, .method-image{
-   /*Your Code Here*/
-
+  /*Your Code Here*/
+  grid-column: 2 / span 1;
 }
 
 /*Req 7b & 8d*/
 .client, .client-image{
-    /*Your Code Here*/
-
+  /*Your Code Here*/
+  grid-column: 3 / span 1;
 }
 
 /*Req 7b & 8d*/
 .contacts, .contact-image{
-    /*Your Code Here*/
-
+  /*Your Code Here*/
+  grid-column: 4 / span 1;
 }
 
 /*Req 9*/
@@ -140,8 +170,9 @@ header{
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
-  /*Your code here:*/
 
+  /*Your code here:*/
+  align-content: center;
 }
 
 
@@ -155,21 +186,26 @@ header{
   nav{
     padding: 30px 0px;
     /*Your code here:*/
+    vertical-align: middle;
   }
 
   /*Req 11*/
   .container{
     /*Your code here:*/
+    grid-template-columns: 50px auto 500px 50px;
+    grid-auto-rows: 400px 425px 425px 400px;
   }
 
   /*Req 12*/
   .about, .client, .method-image, .contact-image{
     /*Your code here:*/
+    grid-column: 3 / span 2;
   }
 
   /*Req 13*/
   .about-image, .client-image, .method, .contacts{
     /*Your code here:*/
+    grid-column: 2 / span 2;
   }
 }
 
