@@ -80,13 +80,12 @@ a:hover{
 /*Your code here*/
   position: absolute;
   top: -50px;
-  
 }
 
 
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
-.skip a:focus{
+a:focus{
   position: absolute;
   top: 10px;
 }
