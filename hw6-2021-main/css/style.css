@@ -14,7 +14,7 @@ header{
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   flex-direction: column;
 }
@@ -30,13 +30,15 @@ header{
 
 /*Requirement 4*/
 .price{
-    min-height: 500px;
-    /*Your code here*/
-    /*You must use flex.
-    /*Don't forget to vertically and horizontally 
-    align the element*/
-    display: flex;
-    
+  min-height: 500px;
+  /*Your code here*/
+  /*You must use flex.
+  /*Don't forget to vertically and horizontally 
+  align the element*/
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /*Requirement 5*/
@@ -47,35 +49,35 @@ header{
   padding: 0 0 50px 0;
   /*Your code here.*/
   /*Take a look at flex-basis*/
-
+  flex-basis: 400px;
 }
 
 /*Requirement 6*/
 /* UNCOMMENT THIS CODE ONCE YOU HAVE THE SELECTOR */
-.package header{
+.package header {
   background: #288080;
   border: 2px solid #45ADAD;
   padding: 20px 0;
   border-radius: 7px 7px 0 0;
 }
 
-
 /*Requirement 7*/
 .gallery{
   min-height: 600px;
-  /*Your code here again.*/
-
+  /*Your code here again.*/ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /*Requirement 8*/
-/**  UNCOMMENT THIS CODE ONCE YOU
-/**  HAVE THE SELECTOR
-{
+/* UNCOMMENT THIS CODE ONCE YOU HAVE THE SELECTOR */
+.gallery img{
   border: 10px #50C7C7 solid;
   margin: 10px;
   width: 300px;
 }
-*/
 
 /*Requirement 9*/
 #logo{
