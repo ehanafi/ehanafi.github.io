@@ -68,7 +68,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 /*Requirement 8*/
@@ -82,18 +82,33 @@ header{
 /*Requirement 9*/
 #logo{
    /*Your code here.*/
- 
+  width: 25px;
+  opacity: 0;
+  animation-name: ;
+  animation-duration: 15s;
+  
+  
 }
 
 /*Keyframes for animation*/
 @-webkit-keyframes logo_grow{
   /*Your code here.*/
-
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 
 @keyframes logo_grow{
   /*Your code here.*/
-
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 } 
 
 @media screen and (min-width: 850px){
