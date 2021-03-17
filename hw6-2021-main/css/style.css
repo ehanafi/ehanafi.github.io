@@ -51,14 +51,13 @@ header{
 }
 
 /*Requirement 6*/
-/**  UNCOMMENT THIS CODE ONCE YOU
-/**  HAVE THE SELECTOR
-{
+/* UNCOMMENT THIS CODE ONCE YOU HAVE THE SELECTOR */
+.package header{
   background: #288080;
   border: 2px solid #45ADAD;
   padding: 20px 0;
   border-radius: 7px 7px 0 0;
-}*/
+}
 
 
 /*Requirement 7*/
