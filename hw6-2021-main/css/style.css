@@ -14,7 +14,7 @@ header{
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
@@ -38,7 +38,7 @@ header{
   display: flex;
   align-content: center;
   justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 /*Requirement 5*/
@@ -84,30 +84,32 @@ header{
    /*Your code here.*/
   width: 25px;
   opacity: 0;
-  animation-name: ;
+  animation-name: logo_grow;
   animation-duration: 15s;
-  
-  
 }
 
 /*Keyframes for animation*/
 @-webkit-keyframes logo_grow{
   /*Your code here.*/
-  from{
+  To{
     opacity: 0;
+    width: 25px;
   }
-  to{
+  From{
     opacity: 1;
+    width: 420px
   }
 }
 
 @keyframes logo_grow{
   /*Your code here.*/
-  from{
+  From{
     opacity: 0;
+    width: 25px;
   }
-  to{
+  To{
     opacity: 1;
+    width: 420px
   }
 } 
 
@@ -115,34 +117,67 @@ header{
 
   /*Requirement 10*/
   header{
-    /*Your code here again.*/  
+    /*Your code here again.*/
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
   }
 
   /*Requirement 10*/
   .nav_links{
-    /*Your code here again.*/  
+    /*Your code here again.*/ 
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
   }
 
   /*Requirement 11*/
   .package {
     /*Your code here again.*/
+    flex-basis: 230px;
   } 
 }
 
 /*Requirement 12*/
 /*Add media query to handle reduced-motion*/
 /*Your code here again.*/ 
-
-
+@media (prefers-reduced-motion) {
+  .animation {
+    animation-name: logo_grow;
+    animation: none;
+  }
+}
 
 @media print { 
 
-  /*Requirement 13*/
-  /*Requirement 14*/
-  /*Requirement 15*/
-  /*Requirement 16*/
-  /*Requirement 17*/
-  /*Requirement 18*/
- 
+/*Requirement 13*/
+body header footer{
+  background-image: none;
 }
 
+/*Requirement 14*/
+nav{
+    width: 100%;
+}
+
+/*Requirement 15*/
+.nav_links{
+    text-align: center;
+}
+
+/*Requirement 16*/
+.price{
+    vertical-align: bottom;
+}
+
+/*Requirement 17*/
+.package{
+    border-width: 2px solid;
+    border-color: #45ADAD;
+    flex-basis: 200px
+}
+
+/*Requirement 18*/
+.gallery{
+  display:none
+}
