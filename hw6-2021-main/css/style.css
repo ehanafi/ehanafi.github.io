@@ -86,16 +86,17 @@ header{
   opacity: 0;
   animation-name: logo_grow;
   animation-duration: 15s;
+  animation-fill-mode: forwards;
 }
 
 /*Keyframes for animation*/
 @-webkit-keyframes logo_grow{
   /*Your code here.*/
-  To{
+  0%{
     opacity: 0;
     width: 25px;
   }
-  From{
+  100%{
     opacity: 1;
     width: 420px
   }
@@ -103,11 +104,11 @@ header{
 
 @keyframes logo_grow{
   /*Your code here.*/
-  From{
+  0%{
     opacity: 0;
     width: 25px;
   }
-  To{
+  100%{
     opacity: 1;
     width: 420px
   }
