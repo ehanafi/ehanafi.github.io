@@ -142,10 +142,11 @@ header{
 /*Requirement 12*/
 /*Add media query to handle reduced-motion*/
 /*Your code here again.*/ 
-@media (prefers-reduced-motion) {
-  .animation {
-    animation-name: logo_grow;
+@media (prefers-reduced-motion: reduce){
+  #logo{
     animation: none;
+    width: 420px;
+    opacity: 1;
   }
 }
 
