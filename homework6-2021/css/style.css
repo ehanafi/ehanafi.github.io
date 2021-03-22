@@ -151,7 +151,6 @@ header{
 }
 
 @media print { 
-
 /*Requirement 13*/
 body header footer{
   background-image: none;
@@ -159,27 +158,34 @@ body header footer{
 
 /*Requirement 14*/
 nav{
-    width: 100%;
+  width: 100%;
 }
 
 /*Requirement 15*/
 .nav_links{
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 /*Requirement 16*/
 .price{
-    vertical-align: bottom;
+  align-items: flex-end;
 }
 
 /*Requirement 17*/
 .package{
-    border-width: 2px solid;
-    border-color: #45ADAD;
-    flex-basis: 200px
+  border: 2px solid;
+  border-color: #45ADAD;
+  flex-basis: 200px;
 }
 
 /*Requirement 18*/
-.gallery{
-  display:none
+#gallery {
+  display: none;
+}
+
+.gallery {
+  display: none;
 }
