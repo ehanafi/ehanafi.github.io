@@ -12,7 +12,6 @@ body{
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
-  /*Your  code here again.*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,11 +20,10 @@ header{
 
 /*Requirement 3*/
 .nav_links{
-  /*Your code here again.*/
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /*Requirement 4*/

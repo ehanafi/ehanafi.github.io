@@ -1,0 +1,188 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: white;
+    text-align: left;
+    background-color: #868376;
+
+    font-family: 'Lora', serif;
+    font-size: 16pt; 
+    margin: 0;
+    padding: 0;
+}
+
+/* finished */
+header{
+    /* sets background-image with parallax effect */
+    background-image: url(../images/paw_background.jpeg);
+    background-attachment: fixed;    
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* finished */
+nav{
+    color: white; 
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #868376;
+}
+
+/* finished */
+.nav_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue
+}
+
+/* RESTYLE FOR H2 AND H3*/
+h1, h2, h3{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#mission, #facts, #testimonials, #about, #cats{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.facts li{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+footer{
+    color: #868376;
+    padding: 30px;
+    text-align: center;
+
+    /* sets background-image with parallax effect */
+    background-image: url(../images/paw_footer.jpeg);
+    background-attachment: fixed; 
+    background-position: top;   
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.footer p{
+    background-color: #f7f7f7;
+    color: black;
+    text-align: center;
+
+    font-family: 'Lora', serif;
+    font-size: 16pt; 
+    margin: 0;
+    padding: 5px;
+}
+
+/* resizes logo */
+.resize {
+    width: 50%;
+    height: auto;
+}
+
+/* CSS FOR - "ABOUT US" PAGE */
+.grid{
+    /*Grid Specific*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding: 20px;
+  	text-align: center;
+  	border: 10px solid black;
+}
+
+.grid img{
+    border: 5px solid black;
+    filter: brightness(1.1);
+    filter: saturate(1.2);
+    filter: sepia(.1);
+    width: 300px;
+    height: 300px;
+}
+
+/* CSS FOR - "COMMUNITY" PAGE */
+
+/* Grid */
+.community-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1.5rem;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+}
+  
+/* Frame */
+.community-frame{
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    color: #f7f7f7;
+}
+  
+/* Images */
+.community-img{
+    max-width: 100%;
+    object-fit: cover;
+    height: 300px;
+    width: 350px;
+}
+  
+.community-img:hover{
+    opacity: .8;
+}
+
+    
+  
+
+
+
