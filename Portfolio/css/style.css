@@ -5,7 +5,7 @@ html{
 body{
     color: white;
     text-align: left;
-    background-color: #868376;
+    background-color: #515048;
 
     font-family: 'Lora', serif;
     font-size: 16pt; 
@@ -37,7 +37,7 @@ nav{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #868376;
+    background-color: #515048;
 }
 
 /* finished */
@@ -112,7 +112,7 @@ ul li{
 }
 
 footer{
-    color: #868376;
+    color: #515048;
     padding: 30px;
     text-align: center;
 
