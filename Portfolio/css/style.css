@@ -50,12 +50,27 @@ nav{
 }
 
 a{
-    color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
+/* visited link */
+a:visited {
+    color: rgb(245, 230, 198);
+  }
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+
+/* mouse over link */
 a:hover{
-    color: blue
+    color: lightpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
 
 /* RESTYLE FOR H2 AND H3*/
