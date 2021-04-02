@@ -39,9 +39,17 @@ document.querySelector("#skip").addEventListener("click", function() {
 	}
 });
 
-// document.querySelector("#mute").addEventListener("click", function() {
-// 	console.log("Mute Video");
-// });
+document.querySelector("#mute").addEventListener("click", function() {
+	console.log("Mute Video");
+	if(vid.muted){
+		vid.muted = false;
+		document.getElementById("mute").innerHTML = "Mute!";
+	}
+	else{
+		vid.muted = true;
+		document.getElementById("mute").innerHTML = "Unmute!";
+	}
+});
 
 document.querySelector("#slider").addEventListener("click", function() {
 	console.log("Slinder Volume");
