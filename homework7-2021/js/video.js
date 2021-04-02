@@ -43,11 +43,11 @@ document.querySelector("#mute").addEventListener("click", function() {
 	console.log("Mute Video");
 	if(vid.muted){
 		vid.muted = false;
-		document.getElementById("mute").innerHTML = "Mute!";
+		document.getElementById("mute").innerHTML = "Mute";
 	}
 	else{
 		vid.muted = true;
-		document.getElementById("mute").innerHTML = "Unmute!";
+		document.getElementById("mute").innerHTML = "Unmute";
 	}
 });
 
