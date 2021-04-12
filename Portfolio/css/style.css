@@ -275,50 +275,17 @@ preferences to reduce motion.*/
 /*desktop view*/
 @media screen and (min-width: 1025px){
 	header{
+        display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: space-between;
+        height: 420px;
     }
 
-/* @media screen and (max-width: 760px){
-	#main{
-	font-size: 24px;
-    line-height: 1;
-    padding: 50px 0;
-    text-align: left;
-	}
-
-	.nav_links{
-    display: flex;
-    flex-direction: column;
-    padding: 25px 0; 
-    align-items: center;
-    flex-wrap: wrap;
-	}
-
-	.navitem{
-		display: flex;
-		font-size: 15px;
-} */
-
-/*desktop view*/
-/* @media screen and (max-width: 760px){
-	.main{
-		font-size: 24px;
-    line-height: 1;
-    padding: 50px 0;
-    text-align: left;
-	}
-
-	nav{
-    display: flex;
-    flex-direction: column;
-    padding: 25px 0; 
-    align-items: center;
-    flex-wrap: wrap;
-	}
-
-	.navitem{
-		display: flex;
-		font-size: 15px;
-} */ 
+    /*positions skip class element*/
+    .skip a:focus{
+        position: absolute;
+        top: 95px;   
+        color: white;
+    }
+}
