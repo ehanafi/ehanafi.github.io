@@ -5,7 +5,7 @@ html{
 body{
     color: white;
     text-align: left;
-    background-color: #515048;
+    background-color: rgb(141, 109, 88);
 
     font-family: 'Lora', serif;
     font-size: 16pt; 
@@ -16,13 +16,13 @@ body{
 /* finished */
 header{
     /* sets background-image with parallax effect */
-    background-image: url(../images/paw_background.jpeg);
+    background-image: url(../images/catbg.jpeg);
     background-attachment: fixed;    
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-    color: white; 
+    color: black; 
 
     display: flex;
     align-items: center;
@@ -32,13 +32,12 @@ header{
 
 /* finished */
 nav{
-    color: white; 
     width: 100%;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #515048;
-}
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(141, 109, 88);
+}   
 
 /* finished */
 .nav_links{
@@ -49,14 +48,38 @@ nav{
     flex-wrap: wrap;
 }
 
-a{
+.nav_links a{
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
     text-decoration: underline;
 }
 
-/* visited link */
-a:visited {
-    color: rgb(250, 208, 23);
-  }
+.nav_links .current{
+    background-color: rgb(247, 247, 247);
+    color: black;
+}
+
+
+/*skip class element*/
+.skip a {
+    background: rgb(141, 109, 88);
+    left: 0;
+    padding: 10px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+}
+  
+/*positions skip class element*/
+.skip a:focus{
+    position: absolute;
+    top: 2px;   
+    color: white;
+}
 
 /* unvisited link */
 a:link {
@@ -65,12 +88,10 @@ a:link {
 
 /* mouse over link */
 a:hover{
-    color: lightpink;
+    color: rgb(253, 182, 198);
 }
-
-/* selected link */
-a:active {
-    color: blue;
+.skip a:hover{
+    color: rgb(253, 182, 198);
 }
 
 /* RESTYLE FOR H2 AND H3*/
@@ -113,11 +134,11 @@ ul li{
 
 footer{
     color: #515048;
-    padding: 30px;
+    padding: 40px;
     text-align: center;
 
     /* sets background-image with parallax effect */
-    background-image: url(../images/paw_footer.jpeg);
+    background-image: url(../images/catbg.jpeg);
     background-attachment: fixed; 
     background-position: top;   
     background-repeat: no-repeat;
@@ -125,20 +146,22 @@ footer{
   }
 
 .footer p{
-    background-color: #f7f7f7;
-    color: black;
+    background:rgb(141, 109, 88);
+    color: white;
     text-align: center;
 
     font-family: 'Lora', serif;
     font-size: 16pt; 
-    margin: 0;
+    margin: 0px;
     padding: 5px;
+
 }
 
 /* resizes logo */
 .resize {
     width: 50%;
-    height: auto;
+    max-height: 340px;
+    max-width: 1200px;
 }
 
 /* CSS FOR - "ABOUT US" PAGE */
@@ -196,8 +219,104 @@ footer{
     opacity: .8;
 }
 
-    
+  
+/*Accessibility to turn off animations
+and movement for people who have modified their 
+preferences to reduce motion.*/
+
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+  
+    .skip a{
+      -webkit-transition: none; /* sets to default setting */
+      transition: none;        /* sets to default setting */
+     }
+  
+    /*Turn off parallax*/
+    header{
+      background-attachment: initial;
+    }
+}
   
 
+/*mobile view*/
+@media screen and (max-width: 480px){
+	header{
+        flex-direction: column;
+        align-content: center;
+    }
+  
+  .nav_links{
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+   }
+}
 
+/*tablet view*/
+@media screen and (min-width: 481px) and (max-width: 1024px){
+	header{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+  .nav_links{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+   }
+}
 
+/*desktop view*/
+@media screen and (min-width: 1025px){
+	header{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+/* @media screen and (max-width: 760px){
+	#main{
+	font-size: 24px;
+    line-height: 1;
+    padding: 50px 0;
+    text-align: left;
+	}
+
+	.nav_links{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0; 
+    align-items: center;
+    flex-wrap: wrap;
+	}
+
+	.navitem{
+		display: flex;
+		font-size: 15px;
+} */
+
+/*desktop view*/
+/* @media screen and (max-width: 760px){
+	.main{
+		font-size: 24px;
+    line-height: 1;
+    padding: 50px 0;
+    text-align: left;
+	}
+
+	nav{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0; 
+    align-items: center;
+    flex-wrap: wrap;
+	}
+
+	.navitem{
+		display: flex;
+		font-size: 15px;
+} */ 
