@@ -275,6 +275,12 @@ preferences to reduce motion.*/
     header{
       background-attachment: initial;
     }
+
+    #logo{
+        animation: none;
+        width: 420px;
+        opacity: 1;
+    }
 }
   
 
