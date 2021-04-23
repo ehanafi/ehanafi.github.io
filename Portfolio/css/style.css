@@ -94,9 +94,31 @@ a:hover{
     color: rgb(253, 182, 198);
 }
 
-/* RESTYLE FOR H2 AND H3*/
-h1, h2, h3{
-    font-size: 50px;
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-size: 30px;
     font-weight: bold;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
@@ -104,10 +126,11 @@ h1, h2, h3{
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
 }
 
-#mission, #facts, #testimonials, #about, #cats{
-    font-size: 50px;
+#mission, #facts, #testimonials, #cats{
+    font-size: 40px;
     font-weight: bold;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
@@ -117,6 +140,7 @@ h1, h2, h3{
 }
 
 p{
+    padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -130,6 +154,13 @@ ul li{
 .facts li{
     list-style-type: circle;
     list-style-position: inside;
+}
+
+#partners{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
 }
 
 footer{
@@ -155,6 +186,13 @@ footer{
     margin: 0px;
     padding: 5px;
 
+}
+
+#logo {
+    opacity: 0;
+    animation-name: logo_bounce;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 /* resizes logo */
@@ -195,7 +233,7 @@ footer{
     grid-gap: 1.5rem;
     justify-items: center;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
   
 /* Frame */
@@ -219,7 +257,6 @@ footer{
     opacity: .8;
 }
 
-  
 /*Accessibility to turn off animations
 and movement for people who have modified their 
 preferences to reduce motion.*/
@@ -288,4 +325,109 @@ preferences to reduce motion.*/
         top: 95px;   
         color: white;
     }
+}
+
+/*For animation*/
+@-webkit-keyframes logo_bounce{
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.3);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+  
+@keyframes logo_grow{
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.3);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.form {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form button{
+    text-align: center;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form .form_title {
+    color: white;
+    font-size: 28px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+}
+  
+/* Positions card on page */
+.flip-card-inner {
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+/* Horizontal flip for mouse*/
+.flip-card:hover .flip-card-inner,
+.flip-card:focus-within .flip-card-inner,
+.flip-card:active .flip-card-inner,
+.flip-card:focus .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+/* Position front and back of card */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    -webkit-backface-visibility: hidden;
+
+    /* Safari */
+    backface-visibility: hidden;
+}
+  
+.flip-card-front {
+    background-color: rgb(247, 247, 247);
+    color: black;
+    text-align: center;
+}
+      
+.flip-card-back {
+    background-color: rgb(253, 182, 198);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-text {
+    text-align: center;
+    color: black;
+    padding: 50px;
 }
